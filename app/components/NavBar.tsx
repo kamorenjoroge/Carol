@@ -126,7 +126,7 @@ const Navbar = () => {
             <div className="md:hidden">
               <button 
                 onClick={toggleMobileMenu}
-                className="text-gray-700 hover:text-primary focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-lg p-2 transition-all duration-300 hover:bg-blue-50"
+                className="text-gray-700 hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 rounded-lg p-2 transition-all duration-300 hover:bg-primary/1"
                 aria-label="Toggle mobile menu"
               >
                 {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}

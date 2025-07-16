@@ -66,7 +66,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <div className="inline-block bg-yellow-400/10 text-yellow-600 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          <div className="inline-block  bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
             Our Services
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -92,7 +92,7 @@ const Services = () => {
                 <div className="p-8">
                   {/* Icon */}
                   <div className={`w-16 h-16 rounded-xl flex items-center justify-center mb-6 ${
-                    isEco ? 'bg-teal-500' : 'bg-yellow-500'
+                    isEco ? 'bg-teal-500' : 'bg-secondary'
                   }`}>
                     <IconComponent className="h-6 w-6 text-white" />
                   </div>
@@ -115,7 +115,7 @@ const Services = () => {
                       {service.features.map((feature, featureIndex) => (
                         <li key={featureIndex} className="flex items-center gap-2 text-sm">
                           <FaCheckCircle className={`h-4 w-4 ${
-                            isEco ? 'text-teal-500' : 'text-yellow-500'
+                            isEco ? 'text-teal-500' : 'text-secondary'
                           }`} />
                           <span className="text-gray-600">{feature}</span>
                         </li>
@@ -132,7 +132,7 @@ const Services = () => {
                           className={`flex items-center gap-1 px-4 py-2 rounded-md text-sm font-medium ${
                             isEco 
                               ? 'text-teal-600 border border-teal-600 hover:bg-teal-50'
-                              : 'text-yellow-600 border border-yellow-600 hover:bg-yellow-50'
+                              : 'text-secondary border border-secondary hover:bg-yellow-50'
                           }`}
                         >
                           Learn More

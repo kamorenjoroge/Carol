@@ -1,0 +1,16 @@
+/*globals.css */
+@import "tailwindcss";
+
+
+@theme inline {
+  --color-primary: #2563EB;
+  /* Blue */
+  --color-secondary: #FACC15
+;
+  --color-accent: #008080;
+  /* Teal */
+  --color-dark: #000000;
+  /* Black */
+  --color-light: #ffffff;
+  /* White */
+}

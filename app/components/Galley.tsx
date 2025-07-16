@@ -27,7 +27,7 @@ const Gallery = () => {
     category: "commercial",
     title: "Corporate Office Maintenance",
     location: "Westlands, Nairobi",
-    image: "https://images.unsplash.com/photo-1497366666649-4f54ffa4cecf?w=600&h=400&fit=crop&crop=center", // Modern office space
+    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop&crop=center",
     beforeAfter: false
   },
   {
@@ -35,7 +35,7 @@ const Gallery = () => {
     category: "eco",
     title: "Waste Management Program",
     location: "Industrial Area, Nairobi",
-    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop&crop=center", // Eco-friendly cleaning supplies
+    image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&h=400&fit=crop&crop=center", // Eco-friendly cleaning supplies
     beforeAfter: false
   },
   {
@@ -51,7 +51,7 @@ const Gallery = () => {
     category: "commercial",
     title: "Hospital Sanitization",
     location: "Upper Hill, Nairobi",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center", // Hospital/medical facility
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop&crop=center", // Hospital/medical facility
     beforeAfter: false
   },
   {
